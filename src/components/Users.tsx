@@ -5,7 +5,7 @@ export const Users = () => {
   const { nextPage, prevPage, users } = useUsers();
   /**
    * Returns table off users 1 image , first Name and last name, and email
-   * @param array user
+   * @param object user
    */
   const getRenderUsers = ({ id, avatar, first_name, last_name, email }: User) => {
     return (
