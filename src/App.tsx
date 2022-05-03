@@ -4,7 +4,8 @@
 // import { Counter } from './components/Counter';
 // import { CounterWithHoock } from './components/CounterWithHoock';
 // import { Login } from './components/Login';
-import { Users } from './components/Users';
+// import { Users } from './components/Users';
+import { Forms } from './components/Forms';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Counter /> */}
       {/* <CounterWithHoock /> */}
       {/* <Login /> */}
-      <Users />
+      {/* <Users /> */}
+      <Forms />
     </div>
   );
 }
